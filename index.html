@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Lima - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">CL</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🤗,</p>
+          <h1>Sou o Carlos Lima</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/carloslima01/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/11989376203" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/CarlosLima01" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/carlosdz4/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/ftdeperfil.jpeg" alt="foto do perfil do Carlos" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/ftdeperfil.jpeg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Carlos e sou um desenvolvedor frontend em
+              formação!</strong>
+              Gosto <strong>muito</strong> da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades. 
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, e sou atleta de karatê. ❤
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivo/Cúrriculo_CarlosLima.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>O JavaScript no começo era muito confuso pra mim porque pensa, eu estava aprendendo apenas html e css durante meses, ai vem o js totalmente diferente e eu pensei, nossa pera ai. Até hoje aprendo um pouco mais sobre o js, é muita prática na verdade, quanto mais eu pratico mais com naturalidade sai o código.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>O html foi a primeira linguagem de texto que aprendi, é o básico do básico então pra mim foi muito fácil de decorar as tags, claro que o html tem centenas de tags mas quase ninguém usa elas no dia a dia então só as mais importantes mesmo como por ex as divs, o h1 e por ai vai.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>O css eu confesso que apanhei muito para aprender, porque é uma ferramenta que você tem que saber mexer para funcionar, é igual o js. Demorei em torno de 2 meses para aprender uma boa parte com o css as margins, paddings, isso tudo leva tempo até ter uma noção básica</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Eu adoro muito mexer no GitHub porque está na cara dele que é uma ferramenta para programadores, então quase todo dia eu entro nele pra ver meus repositórios, entrar no meu perfil, e a cada dia aprendo alguma coisa nova sobre o GitHub que eu não saberia se não procurasse, se não fosse atrás.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>O Git eu demorei bastante para usar porque no começo não entendia direito o seu conceito e como funicionava, mas hoje em dia a maior parte do tempo só uso ele pra colocar um projeto no repositório ou usar um commit, enfim muitas coisas que eu não fazia com ele hoje em dia eu faço uso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="src/imagens/WhatsApp Image 2023-11-29 at 11.33.03.jpeg" alt="youtube dos gatos" />
+            <h3>youtube com gatinhos</h3>
+            <div class="informacoes-projeto">          
+              <p>Este projeto foi apenas uma coisa parecida com o youtube que eu realizei</p>
+              <p><a href="https://carloslima01.github.io/gatinhos-com-yt/" target="_blank" rel="noopener noreferrer">🔗 Ver no GitHub Pages</a></p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="src/imagens/WhatsApp Image 2023-11-29 at 11.18.41.jpeg" alt="looking for users" />
+            <h3>Procurando usuários no github</h3>
+            <div class="informacoes-projeto">          
+              <p>Este proejto foi feito com html css e js</p>
+              <p><a href="https://carloslima01.github.io/fetch-com-github/" target="_blank" rel="noopener noreferrer">🔗 Ver no GitHub Pages</a></p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://github.com">
+            <img src="src/imagens/WhatsApp Image 2023-11-28 at 10.02.41.jpeg" alt="gerador de conselhos" />
+            <h3>Gerador de conselhos</h3>
+            <div class="informacoes-projeto">
+              <p>Este projeto foi feito com html css e js</p>
+              <p><a href="https://carloslima01.github.io/advice-com-js/" target="_blank" rel="noopener noreferrer">🔗 Ver no GitHub Pages</a></p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="">
+            <img src="src/imagens/WhatsApp Image 2023-11-28 at 10.03.26.jpeg" alt="Requisito de dados" />
+            <h3>Projeto Preenchimento de dados</h3>
+            <div class="informacoes-projeto">
+              <p>Este projeto foi feito com html css e js</p>
+              <p><a href="https://carloslima01.github.io/preenchimento-de-dados/" target="_blank" rel="noopener noreferrer">🔗 Ver no GitHub Pages</a></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/carloslima01/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/11989376203" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/CarlosLima01" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/carlosdz4/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
